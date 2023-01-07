@@ -1,0 +1,9 @@
+Tambahkan --openssl-legacy-provider ke :
+"start": "react-scripts start",
+menjadi :
+"start": "react-scripts --openssl-legacy-provider start",
+
+jika terjadi error
+library: 'digital envelope routines',
+reason: 'unsupported',
+code: 'ERR_OSSL_EVP_UNSUPPORTED'
